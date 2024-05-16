@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_background2"
+    tools:context=".ingredientActivity">
+
+    <ScrollView
+        android:layout_width="427dp"
+        android:layout_height="397dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="The recipe will appear here"
+            android:text=""
+            android:textSize="15sp"
+            tools:ignore="HardcodedText"/>
+
+
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/inputmeal2"
+        android:layout_width="264dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter MealName:"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/retireveBtn2"
+        android:layout_width="259dp"
+        android:layout_height="56dp"
+        android:background="@drawable/gradient_custom_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="retireve"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn2"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:background="@drawable/gradient_custom_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Back"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveBtn2"
+        android:layout_width="259dp"
+        android:layout_height="56dp"
+        android:background="@drawable/gradient_custom_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="add to database"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
